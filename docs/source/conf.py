@@ -2,17 +2,16 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'BrickBench'
+copyright = '2021, 'OpenGG Team'
+author = 'OpenGG Team'
 
-release = '0.1'
-version = '0.1.0'
+release = '0.3'
+version = '0.3.0'
 
 # -- General configuration
 
 extensions = [
-    'myst_parser',
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',

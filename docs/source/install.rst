@@ -98,11 +98,11 @@ If this is the first time you open a map/level, you will see the following promp
 
 There are two options:
 
-* Select: This option copies the game directory you select into an internal BrickBench folder, after
+* Copy: This option copies the game directory you select into an internal BrickBench folder, after
   which you can delete the directory you selected if you want. This option is highly 
   recommended, as it ensures that there are no accidental changes to your files that may corrupt or prevent loading
   of projects
-* Use Custom Directory: This option sets a custom directory that BrickBench will use as a clean copy. This is useful
+* Set Custom Directory: This option sets a custom directory that BrickBench will use as a clean copy. This is useful
   if you do not have enough space on your main drive.
 
 We *highly* recommend that you allow BrickBench to make a copy of your files. If you make a project using a modded

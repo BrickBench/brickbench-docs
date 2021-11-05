@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'BrickBench'
-copyright = '2021, 'OpenGG Team'
+copyright = '2021, OpenGG Team'
 author = 'OpenGG Team'
 
 release = '0.3'

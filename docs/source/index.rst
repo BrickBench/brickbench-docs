@@ -1,5 +1,5 @@
 Welcome to the documentation for BrickBench!
-===================================
+==============================================
 
 **BrickBench** is a map editor for Lego Star Wars: The Complete Saga.
 
@@ -16,4 +16,7 @@ Contents
 .. toctree::
 
    install
-   api
+   editing
+   project
+   glossary
+   faq

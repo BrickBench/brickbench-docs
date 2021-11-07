@@ -48,7 +48,6 @@ Once installed, you should be able to run it through a shortcut or as a normal W
    **Advanced**: BrickBench can also be run on the command line with ``brickbench.exe``. 
    If you pass in a folder or project as an argument, BrickBench will automatically open it.
 
-
 Manual
 ------
 

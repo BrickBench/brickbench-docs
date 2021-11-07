@@ -53,7 +53,53 @@ some of which are editable. Common properties are:
   Due to how rotation works internally, some objects may act weirdly when rotated 180°. 
   The reason for this is explained in the advanced (PUT LINK HERE) section of this page.
 
+Adding objects
+===============
 
+Adding objects is done through the Objects tab. To add a new object, click the + button
+on the top right, and then select the object you want to add. For most standard objects, this
+will place your new object onto the current camera location. 
+
+Certain, more complex objects (such as models) will select a new object that can be used 
+to tune object properties before adding the object to the map.
+
+Importing assets
+===================
+
+Project assets are imported through File -> Import -> Import Asset. If you would like to add a
+new project asset, details are available (here (LINK)).
+
+Importing textures
+--------------------
+
+.. note:: The TT Games engine primarily supports only DDS files (there is basic PNG support). 
+   Therefore, BrickBench expects any textures that are added to be in a .dds format. If
+   you do not have your textures in .dds, please do so before importing them either alone
+   or as part of a model.
+
+To import a texture, select the texture in the Textures list in the Import menu and click Next.
+You will then be able to select if you would like to import the texture as a new texture 
+or to replace one or multiple textures. you can select multiple textures to quickly replace a
+set of textures with your asset.
+
+Importing models
+-------------------
+
+To import a model, select your model in the Models list in the Import menu and click Next.
+You will then be able to select the following options:
+
+* Reverse winding: This should be used if your model appears inverted and the terrain looks
+  backwards after importing.
+
+* Mirror on X axis. As noted above, TT Games's engine has an inverted X axis from many editors.
+  If BrickBench does not properly compensate for this, you can force a mirror with this option.
+
+* Generate with normal shading: This enables lighting on your imported model. This should be selected
+  if you would like lights to apply to your model. Note that this option requires your model to have
+  proper normals exported from your 3D editor.
+
+The import process may take some time. After importing, you will be able to see your imported model
+in the Objects tree. You can then add your model into the map like any other object.
 
 Advanced
 ========
@@ -62,7 +108,7 @@ Internals
 ---------
 
 To allow editing of file formats that are not fully understood, BrickBench editing works by 
-immediately applying any changes the user applies onto the file it is editing and then reloading
+immediately applying any changes the user does onto the file it is editing and then reloading
 the file. This allows for great flexibility with editing file formats that may be almost completely 
 unknown, but causes editing to be slow (especially on operations that require multiple steps)
 and causes certain operations to be confusing (eg. if you rotate something by 180°, it can be 

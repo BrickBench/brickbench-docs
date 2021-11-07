@@ -104,6 +104,14 @@ in the Objects tree. You can then add your model into the map like any other obj
 Advanced
 ========
 
+Editing files directly
+-----------------------
+If you would like to edit a map file directly (either in a hex editor or a text editor), select
+the map the file is in in the Project Structure tab. Then, in the inspector, double click the 
+file you would like to edit. This will open the file in your editor of choice.
+
+Once you are done, be sure to save your work for that file BEFORE you save the project.
+
 Internals
 ---------
 

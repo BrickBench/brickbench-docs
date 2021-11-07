@@ -107,4 +107,4 @@ There are two options:
 We *highly* recommend that you allow BrickBench to make a copy of your files. If you make a project using a modded
 base directory, your project may be corrupted **unrecoverably**.
 
-
+Once you have your map in, time to edit!

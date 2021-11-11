@@ -71,7 +71,8 @@ if you are editing someone else's project and do not have the assets on your com
 Assets can be imported through the Asset Import window, which can be selected by clicking
 Import -> Import Asset in the menubar. 
 
-(((((IMAGE)))))
+.. image:: images/asset_prompt.png
+   :width: 400
 
 Click the + button to add a new asset. Assets can be either textures (.dds) or models.
 BrickBench currently supports .obj and .fbx models. To import these assets into your map,

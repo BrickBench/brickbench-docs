@@ -51,4 +51,12 @@ Hook options
 =============
 
 The runtime hook has the following options: 
+* Autoload map from current hooked game: When this option is enabled, BrickBench will 
+  automatically load the map the player is in.
 
+* Reset map on load: This option resets the map state when a map is loaded. 
+
+* Reset door on load: This option resets the door that the player will enter through when
+  entering a map directly.
+
+* Enable global hotkeys: This enables the teleport hotkeys while not in BrickBench.

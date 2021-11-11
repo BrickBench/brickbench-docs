@@ -37,13 +37,14 @@ There are two ways of installing BrickBench on Windows:
 Installer (recommended)
 -----------------------
 
-To download the installer version, find the most recent release and download ``BrickBench-v0.3.0.msi``.
+To download the installer version, download ``BrickBench-v0.3.0.msi`` from the most recent
+Github release.
 Once installed, you should be able to run it through a shortcut or as a normal Windows program.
 
 
 .. note::
    If you install BrickBench this way, you will be able to double-click .brickbench files to 
-   automatically open them through Windows
+   automatically open them through Windows.
 
    **Advanced**: BrickBench can also be run on the command line with ``brickbench.exe``. 
    If you pass in a folder or project as an argument, BrickBench will automatically open it.
@@ -57,7 +58,7 @@ packaged version. To do so, find the most recent release and download ``BrickBen
 Once downloaded, unzip it into a directory of your choice. In the install directory, you should find ``BrickBench.exe``. 
 
 
-Creating your first project
+Starting BrickBench
 ***************************
 
 When you run BrickBench, you will be greeted by the following window:
@@ -65,9 +66,24 @@ When you run BrickBench, you will be greeted by the following window:
 .. image:: images/welcome_screen.png
    :width: 600
 
-To create a new project, click the 'New Project' button. BrickBench will ask you for a project name 
-(choose whatever you want) and a folder to put the project file into. Once saved, your file will 
-be named ``<name>.brickbench``. 
+Once started, you have two options: open an existing map to view, or create a project to
+edit maps.
+
+Viewing maps
+*************
+
+To begin exploring existing maps, select the 'Load map/project' button on the Projects tab.
+Afterwards, select a map folder or a scene (.gsc) file to open it in BrickBench. 
+
+After opening, you will notice that the titlebar of BrickBench says Read-only. This means that
+you are currently viewing a map and cannot edit it. if you would like to edit the map, please
+create a project and add the map to it.
+
+Creating your first project
+***************************
+To create a new project, click the 'Create Project' button. BrickBench will ask you for a 
+project name (choose whatever you want) and a folder to put the project file into. Once 
+saved, your file will be named ``<name>.brickbench``. 
 
 Adding maps
 -----------
@@ -107,4 +123,4 @@ There are two options:
 We *highly* recommend that you allow BrickBench to make a copy of your files. If you make a project using a modded
 base directory, your project may be corrupted **unrecoverably**.
 
-Once you have your map in, time to edit!
+Once you have your map in, :ref:`time to edit <edit-start>`!

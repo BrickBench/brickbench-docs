@@ -5,6 +5,18 @@ FAQ
 Troubleshooting
 ================
 
+Editor controls
+----------------
+
+*I can't select any objects*
+
+If you cannot select objects, make sure that you have selection mode enabled in the 
+toolbar at the top of the screen.
+
+*I selected a terrain type for editing, but clicking on terrain doesn't do anythin*
+
+Ensure that you are in paint mode, which is selected in the toolbar at the top of the screen.
+
 Model importing
 ----------------
 *BrickBench says that my model has too many vertices*
@@ -40,12 +52,13 @@ Exported maps
 
 Gizmos have a specific maximum that is set in the maps' .txt file. If you want to add more gizmos of
 a certain type than that limit, you need to increase that maximum in the .txt. Editing map files
-directly can be done as explained (here (LINK))
+directly can be done as explained :ref:`here <direct-editing>`
 
 *I added a creature spawn to my map with a certain creature type, and it won't show up*
 
 If you are adding a creature to a map, its area needs to have that character as resident. That
-process is explained (here (LINK))
+can be done by selecting the area in the Project Structure tool and editing the character list
+in Inspector.
 
 *None of my AI changes are taking effect*
 

@@ -18,5 +18,6 @@ Contents
    install
    editing
    project
+   test
    glossary
    faq

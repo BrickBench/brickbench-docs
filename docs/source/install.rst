@@ -90,19 +90,19 @@ Adding maps
 
 At the moment, your project is empty. Let's change that. 
 
-To add a new map to your project, go to File -> Import Map/Level and select a map or a level.
-This can be done by selecting the directory that contains the map/level you want to add (for example, 
+To add a new map to your project, go to File -> Import Map/Area and select a map or an area.
+This can be done by selecting the directory that contains the map/area you want to add (for example, 
 selecting ``Levels/Episode_I/Negotiations`` to add the Negotiations level).
 
 .. note::
-   The difference between a map and a level might seem confusing at first, so here's what each one
+   The difference between a map and an area might seem confusing at first, so here's what each one
    means.
 
    **Map**: a single play area consisting of a scene file and other optional files. An example would
-   be Negotiations_A. A map is normally part of a level or area, but can also be independent, such
+   be Negotiations_A. A map is normally part of an area, but can also be independent, such
    as the legal screens.
 
-   **Level/Area**: a collection of maps that are connected in some way through doors and share
+   **Area**: a collection of maps that are connected in some way through doors and share
    characters, AI state, and certain other properties. An example would be Negotiations, which contains
    Negotiations_A, B, C, Intro, and Outro as maps.
 

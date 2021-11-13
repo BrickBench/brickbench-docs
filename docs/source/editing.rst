@@ -33,7 +33,7 @@ Tools
 
 * **Textures**: Displays the textures belonging to the currently open map.
 
-* **Paint Terrain**: Allows you to edit terrain properties visually with a painting-like format.
+* **Paint Terrain**: Allows you to apply custom properties to the terrain mesh.
 
 * **Runtime Hook**: Allows debugging and manipulation of an active game instance.
 
@@ -54,6 +54,18 @@ properties, some of which are editable. Common properties are:
 * Rotation: The rotation of the object in degrees, either in one dimension or in all three.
   Due to how rotation works internally, some objects may act weirdly when rotated 180°. 
   The reason for this is explained in the :ref:`advanced <internals>` section of this page.
+
+Editing terrain properties
+==========================
+
+To paint terrain, open the Paint Terrain tool and select the surface property you want.
+Once you select the property you want, click the painbrush icon in the toolbar on the top of the 
+window. You can then click on terrain meshes to paint them with your selected property. 
+
+To finish editing terrain, click the pan/select buttons.
+
+.. note:: Some surface properties may behave differently on different maps, as the game can
+   redefine how a property behaves depending on the map.
 
 Adding objects
 ===============

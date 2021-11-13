@@ -62,11 +62,13 @@ in Inspector.
 
 *None of my AI changes are taking effect*
 
-If you are exporting your changes to a new directory, be sure to delete the ai.pak file in the
+If you are exporting your changes to a new directory, be sure to delete the ``ai.pak`` file in the
 maps you export into. That file contains a copy of all AI data, and not removing it will make
 the game use the unmodified AI data instead of your modded copy.
 
 *My custom music isn't playing*
 
-If you have custom music, be sure that it is in .ogg format and the bitrate/frequency is the same
-as other songs in the *Audio/_MUSIC* folder.
+If you have custom music, be sure that it is in .ogg (Ogg Vorbis) format with 2.0 channels
+and the bitrate/frequency is similar to other songs in the ``Audio/_MUSIC`` folder. If you 
+are adding new music, you will also need to override the existing ``music.cfg`` file. You can
+do that by adding the replacement file as a resource.

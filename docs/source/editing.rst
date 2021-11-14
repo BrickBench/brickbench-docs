@@ -27,7 +27,8 @@ Tools
 
 * **Project Structure**: Allows you to view and edit the project structure.
 
-* **Objects**: Shows you the standard (non-asset) entities belonging to the current map.
+* **Objects**: Shows you the standard (non-asset) entities belonging to the current map. 
+  You can also toggle visibility of map objects by clicking on the column below the eye icon.
 
 * **Materials**: Displays the materials belonging to the currently open map.
 

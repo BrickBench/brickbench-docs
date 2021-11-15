@@ -69,6 +69,7 @@ When you run BrickBench, you will be greeted by the following window:
 Once started, you have two options: open an existing map to view, or create a project to
 edit maps.
 
+
 Viewing maps
 *************
 
@@ -84,6 +85,21 @@ Creating your first project
 To create a new project, click the 'Create Project' button. BrickBench will ask you for a 
 project name (choose whatever you want) and a folder to put the project file into. Once 
 saved, your file will be named ``<name>.brickbench``. 
+
+Importing THINGS_PC.gsc
+-------------------------
+This is an optional step, but is highly recommended as it'll greatly improve the editing experience.
+
+``THINGS_PC.gsc`` is a file that contains commonly-used objects. It is stored in the ``STUFF`` folder.
+BrickBench supports importing ``THINGS_PC.gsc`` into the editor so that it can use the models to
+better render certain common objects such as levers, zipup hooks, etc.
+
+To import ``THINGS_PC.gsc``, go to *File -> Import THINGS_PC.gsc* and select your ``THINGS_PC.gsc`` file
+from your extracted game. You only have to do this once per install. 
+
+.. note::
+   In the future, BrickBench will support using the ``THINGS_PC.gsc`` file in your project as an
+   override to allow for custom models and textures.
 
 Adding maps
 -----------
